@@ -1,0 +1,55 @@
+// Import Bourbon
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+// Demo: Replace below this line, with your project styles
+
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	background-color: #F3F1EC;
+	color: #333;
+}
+
+body {
+	padding: 20px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.nav {
+
+	@include clearfix;
+	padding: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+
+    > li {
+
+    	float: left;
+    	list-style: none;
+
+
+        > a {
+            background-color: #2685F2;
+            color: #fff;
+            border-left: 1px solid #fff;
+            padding: 10px 15px;
+        }
+
+        &:first-child > a {
+            border-left: none;
+        }
+
+        &.current > a {
+            background-color: #00E;
+        }
+    }
+}
+
+.btn {
+	@include button(#DC322F);
+	font-size: 15px;
+}

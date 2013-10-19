@@ -1,0 +1,20 @@
+{
+  "debug": false,
+  "lintScripts": false,
+  "preprocessorLocations": "public",
+  "preprocessorScriptOutput": "public/scripts",
+  "preprocessorStyleOutput": "public/styles",
+  "projectName": "Bourbon-Neat",
+  "projectDescription": "A semantic, fluid grid framework on top of Sass and Bourbon.",
+  "publishedId": null,
+  "serverHostname": null,
+  "serverPort": null,
+  "templateDirectory": "templates",
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "type": "mixture",
+  "useCompass": false,
+  "simpleModePartnerServer": null,
+  "modelSource": null,
+  "domain": null
+}

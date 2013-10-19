@@ -1,0 +1,22 @@
+{
+	"title": "Model",
+	"modelDate": "11.14.2012",
+	"people": [
+		{
+			"name": "Thoughtbot",
+			"twitter": "@thoughtbot"
+		},
+		{
+			"name": "Neil Kinnish",
+			"twitter": "@neiltak"
+		},
+		{
+			"name": "Mike Kus",
+			"twitter": "@mikekus"
+		},
+		{
+			"name": "Pete Nelson",
+			"twitter": "@petetak"
+		}
+	]
+}
